@@ -37,7 +37,7 @@ body{
 
 /*Main*/
 .main-container{
-	margin: 5% auto 5% auto;
+	margin: 1% auto 5% auto;
 	max-width: 60%;
 }
 
@@ -89,6 +89,7 @@ body{
 
 .about-me-text{
 	padding: 10%;
+	padding-bottom: 4%;
 	font-size: 18px;
 }
 
