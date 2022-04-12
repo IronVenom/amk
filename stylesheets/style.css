@@ -313,8 +313,8 @@ body{
 		justify-content: center;
 		margin-bottom: 9%;
 	}
-	/*Blog*/
-	.blog-grid{
+	/*Blog and Projects*/
+	.project-grid , .blog-grid{
 		grid-template-columns: 100%;
 	}
 	/*Experience*/
