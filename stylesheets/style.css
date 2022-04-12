@@ -152,39 +152,39 @@ body{
 	color: var(--white);
 }
 
-/*Blog*/
-.blog-grid{
+/*Blog and Projects*/
+.project-grid , .blog-grid{
 	display: grid;
 	grid-template-columns: 32% 32% 32%;
 	grid-column-gap: 2%;
 	grid-row-gap: 15px;
 }
 
-.blog-card{
+.project-card , .blog-card{
 	color: var(--dark-slate);
 	border: 2px solid var(--dark);
 	border-radius: 20px;
 	padding: 20px;
 }
 
-.blog-title{
+.project-title , .blog-title{
 	color: var(--green);
 	margin-bottom: 0.5rem;
 	text-align: center;
 }
 
-.blog-link{
+.project-link , .blog-link{
 	color: var(--green);
 	font-size: 20px;
 }
 
-.blog-info{
+.project-info , .blog-info{
 	margin-top: 0.1rem;
 	margin-bottom: 0.1rem;
 	text-align: center;
 }
 
-.blog-tags{
+.project-tags , .blog-tags{
 	color: var(--light-slate);
 	margin-top: 1rem;
 	margin-right: 0.2rem;
@@ -197,7 +197,7 @@ body{
 	grid-row-gap: 4px;
 }
 
-.blog-link{
+.project-link , .blog-link{
 	color: var(--green);
 }
 
@@ -218,7 +218,8 @@ body{
 	margin: 5%;
 }
 
-#blog-btn{
+
+#project-btn , #blog-btn{
 	background-color: var(--navy);
 	color: var(--green);
 	border: 3px solid var(--green);
